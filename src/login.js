@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 import { loginRedux } from "./redux/userSlice";
+import Header from "./components/Header";
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -64,6 +65,8 @@ const Login = () => {
   };
 
   return (
+    <>
+    <Header/>
     <div className="p-3 md:p-4">
       <div className="w-full max-w-sm bg-white m-auto flex flex-col p-4">
         <div className="w-180 overflow-hidden rounded-full drop-shadow-md shadow-md m-auto">
@@ -111,6 +114,8 @@ const Login = () => {
         </p>
       </div>
     </div>
+    </>
+    
   );
 };
 

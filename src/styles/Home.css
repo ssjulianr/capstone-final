@@ -19,6 +19,9 @@ li{
 h1{
   font-family: "Paytone One", sans-serif;
 }
+svg{
+  padding: 2%;
+}
 .container{
   min-width: 100%;
   margin: auto;
@@ -28,13 +31,25 @@ h1{
   /* position: fixed; */
 }
 .navcontainer{
-  background-color:rgb(230, 47, 47);
+  background-color: #000;
+
+}
+.navcontainer a{
+  color: #fff;
+  text-decoration: none;
+}
+.navcontainer a:hover{
+  color: #ff523b;
 }
 .navbar{
   display: flex;
   align-items: center;
   padding: 20px;
   
+}
+.logo img{
+  height: 120px;
+  width: 120px;
 }
 nav{
   flex: 1;

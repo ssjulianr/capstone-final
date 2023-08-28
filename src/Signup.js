@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { ImagetoBase64 } from "./utility/ImagetoBase64";
 import { toast } from "react-hot-toast";
 import { useState } from "react";
+import Header from "./components/Header";
 
 function Signup() {
   const navigate = useNavigate();
@@ -82,6 +83,8 @@ function Signup() {
   };
 
   return (
+    <>
+    <Header/>
     <div className="p-3 md:p-4">
       <div className="w-full max-w-sm bg-white m-auto flex flex-col p-4">
         <div className="w-180 overflow-hidden rounded-full drop-shadow-md shadow-md m-auto relative">
@@ -184,6 +187,8 @@ function Signup() {
         </p>
       </div>
     </div>
+    </>
+    
   );
 }
 

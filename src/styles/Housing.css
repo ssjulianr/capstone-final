@@ -23,6 +23,7 @@ body {
   background-image: url("../images/istockphoto-1371784578-170667a.jpeg"); /* Replace with the actual image URL */
   background-size: cover;
   background-position: center;
+  margin: -20px 0;
 }
 
 .housing-headerr {

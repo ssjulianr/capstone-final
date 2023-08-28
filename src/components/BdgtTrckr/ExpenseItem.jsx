@@ -13,23 +13,15 @@ const ExpenseItem = (props) => {
 	};
 
 	return (
-		<li class='list-group-item d-flex justify-content-between align-items-center'>
+		<li class='list-group-item d-flex justify-content-between align-items-center flex-direction-row'>
 			{props.name}
 			<div>
-				<span>${props.cost}</span>
+				<span>${props.cost}
 				<TiDelete size='1.5em' onClick={handleDeleteExpense} />
+				</span>
 			</div>
-            <style jsx>{`
-                .cost {
-                    display: inline-block;
-                    padding: 0.25em 0.5em;
-                    font-size: 1rem;
-                    font-weight: bold;
-                    background-color: #007bff;
-                    color: #fff;
-                    border-radius: 0.75rem;
-                }
-            `}</style>
+            
+           
 		</li>
 	);
 };
