@@ -136,12 +136,12 @@
   padding-top: 20px;
   width: 100vw;
   margin: 0 auto;
-  background-color: #239c9d;
+  background-color: #99c6c6;
   text-align: center;
 }
 
 .provider-card {
-  width: 250px;
+  width: 300px;
   margin: 30px;
   padding: 20px;
   text-align: center;
@@ -159,8 +159,8 @@
 }
 
 .schedule-button {
-  background-color: #ff0202;
-  color: #fff;
+  background-color: #239c9d;
+  color: black;
   border: none;
   padding: 8px 16px;
   border-radius: 5px;
