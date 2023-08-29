@@ -2,12 +2,10 @@ import React from "react";
 import "../styles/Housing.css";
 import img1 from "../images/impact.png";
 import img2 from "../images/Own-a-Home-.jpeg";
-import img3 from "../images/hero-image.jpeg";
 import cwc from "../images/CWCLogo.png";
 import habitat from "../images/habitat-logo.jpeg";
-import dreamkey from "../images/DreamKey-logo.jpeg";
 import Header from "../components/Header";
-
+import Footer from '../components/Footer';
 function Housing() {
   return (
     <div>
@@ -105,16 +103,9 @@ function Housing() {
           <a href="https://www.habitatcltregion.org" target="_blank">
             <img src={habitat} alt="habitat for humanity logo" />
           </a>
-
-          <a
-            href="https://dreamkeypartners.org/house-charlotte-program/"
-            target="_blank"
-          >
-            <img src={dreamkey} alt="dream key partners logo" />
-          </a>
         </div>
       </div>
-
+    <Footer />
     </div>
   );
 }

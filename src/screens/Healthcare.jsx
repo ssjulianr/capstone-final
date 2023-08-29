@@ -7,6 +7,7 @@ import providersData from "../components/DoctorAppointment/providers.json";
 import ProviderList from "../components/DoctorAppointment/ProviderList";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function HealthCare() {
   const [selectedFilters, setSelectedFilters] = useState({
@@ -137,6 +138,7 @@ function HealthCare() {
       <Filters setSelectedFilters={setSelectedFilters} />
       <ProviderList providers={filteredProviders} />
     </div>
+    <Footer/>
     </>
     
   );

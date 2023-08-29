@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "../styles/Health.css";
 
@@ -19,6 +20,7 @@ function MobileClinic() {
         </div>
       </div>
     </div>
+    <Footer/>
     </>
     
   );
