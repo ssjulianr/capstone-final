@@ -10,7 +10,21 @@ const Finance = () =>{
         <Header/>
         <div className='paycheck'>
             <BackgroundSlider/>
-                <h1>Financial Literacy</h1>
+            <section id="about-head" className="section-p1">
+                <img src="https://www.annuity.org/wp-content/uploads/financial-literacy-1.jpg" alt="Rapper"/>
+                <div>
+                    <h2>Mosaic's 5 Principles of Financial Literacy</h2>
+                    <ol>
+                        <li>1) Earning</li>
+                        <li>2) Saving & Investing</li>
+                        <li>3) Debt Management</li>
+                        <li>4) Budgeting</li>
+                        <li>5) Protecting Your Assets</li>
+                    </ol>
+                        
+                </div>
+            </section>
+            <h1>Earning</h1>
             <BudgetTracker/>
         </div>
         

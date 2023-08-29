@@ -353,6 +353,7 @@ select {
 .mobileclinic {
   background-color: #ededed;
   height: 100vh;
+  margin: -20px 0;
 }
 .mobile-clinic-container {
   display: flex;

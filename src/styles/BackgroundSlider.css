@@ -48,6 +48,11 @@
 
 .bkg{
     padding: 10%;
-    background-image: linear-gradient(rgba(255, 0, 0, 0.7),rgba(255, 0, 0, 0.7) );
-    border-radius: 15%;
+    background-image: linear-gradient(rgba(2, 0, 0, 0.7),rgba(2, 0, 0, 0.7) );
+    border-radius: 5%;
+}
+
+
+.clam p{
+    color: white;
 }

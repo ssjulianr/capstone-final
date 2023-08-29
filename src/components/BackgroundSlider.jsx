@@ -28,7 +28,7 @@ const BackgroundSlider = () => {
         <div style={bgImageStyle}></div>
         <div className='transparent-background'></div>
         <div className = 'elephant'>
-            <div >
+            <div className='clam bkg'>
                <div>
                 <h1>{imageSlide[currentState].title}</h1>
                 <p>{imageSlide[currentState].body}</p>

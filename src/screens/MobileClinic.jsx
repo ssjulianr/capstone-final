@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "../components/Header";
 import "../styles/Health.css";
 
 function MobileClinic() {
   return (
+    <>
+    <Header/>
     <div className="mobileclinic">
       <div className="mobile-clinic-container">
         <h1 className="mobile-header">Find a Mobile Clinic</h1>
@@ -16,6 +19,8 @@ function MobileClinic() {
         </div>
       </div>
     </div>
+    </>
+    
   );
 }
 
