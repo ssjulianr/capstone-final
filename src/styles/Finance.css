@@ -31,3 +31,13 @@
   .section-p1 h2{
     text-align: center;
   }
+
+  .budgetContainer{
+    padding: 15%;
+  }
+
+  .dream{
+    border: 2px solid #000;
+    padding: 5%;
+    background-color: rgba(35, 156, 157, 0.75);
+  }

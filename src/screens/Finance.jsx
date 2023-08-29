@@ -25,6 +25,10 @@ const Finance = () =>{
                 </div>
             </section>
             <h1>Earning</h1>
+            <h1>Saving & Investing</h1>
+            <h1>Debt Management</h1>
+            <h1>Budgeting</h1>
+            <h1>Protecting Your Assets</h1>
             <BudgetTracker/>
         </div>
         
