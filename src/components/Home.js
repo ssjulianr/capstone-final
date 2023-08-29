@@ -10,11 +10,13 @@ import BANK from './BOASMILE.jpg';
 import '../styles/Home.css';
 import Header from './Header'
 import Footer from './Footer';
+import QuizBody from './QuizBody';
 
 const Home = () => {
   return (
  <>
  <Header/>
+ 
  <div class="categories">
          <div class="small-container">
            <div class="roww">
@@ -39,35 +41,42 @@ const Home = () => {
                <h1>Our Mission</h1>
                <small>"Elevating Communities, Enriching Lives: committed to creating lasting positive change through impactful philanthropy. Our focus on education, healthcare, and sustainable solutions drives us to build stronger, more vibrant communities for everyone."</small>
                <br/>
-               <a href="/" class="bttn">Meet The Team! &#8594;</a>
+               <a href="/" class="bttn">Find Locations! &#8594;</a>
            </div>
        </div>
      </div>
+   
+     
   <div class="small-container">
         <h2 class="title">How we help</h2>
            <div class="roww">
                <div class="col-4">
                    <a href="/health"><img src={BOAHealth}/></a>
                    <h4>Health</h4>
+                   <h5> Scheduele an appointment </h5>
                </div> 
                <div class="col-4">
                    <a href="/housing"><img src={BOAHousing}/></a>
                    <h4>Housing</h4>
-                  
+                  <h5>Find programs that suit your needs! </h5>
                </div> 
                <div class="col-4">
                <a href="/finance"><img src={BOAHMoney}/></a>
                    <h4>Finances</h4>
-                  
+                  <h5>Keep track of your finances</h5>
                </div> 
            </div>
        </div>
    </div>
-   
-  
    <div class="testimonial">
        <div class="small-container">
        <div class="roww">
+           
+           <div class="col-3">
+                      <p>This site is fire!</p>
+                       <img src={Tes3}/>
+                       <h3>Rengoku</h3>
+           </div> 
            <div class="col-3">
                       <p>I got approved for a new loan in minutes!</p>
                        <img src={Tes1}/>
@@ -79,14 +88,12 @@ const Home = () => {
                        <img src={Tes2}/>
                        <h3>Sukuna</h3>
            </div>
-            <div class="col-3">
-                      <p>This site is fire!</p>
-                       <img src={Tes3}/>
-                       <h3>Rengoku</h3>
-           </div>    
+               
        </div>
        </div>
    </div>
+    <QuizBody/>
+   
   <Footer/>
  </>
 
