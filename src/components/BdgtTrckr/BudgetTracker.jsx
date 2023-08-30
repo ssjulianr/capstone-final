@@ -22,6 +22,12 @@ const BudgetTracker = () => {
             <div className = 'budgetContainer'>
                 <div className='dream'>
             <h1 className = 'mt-3'>My Budget Planner</h1>
+            <br/>
+            <h3>Instructions:</h3>
+            <p>Adhering to a budget is a vital aspect of achieving financial independence. This interactive Budget Tracker is designed to 
+                help you manage a budget of any size. Enter your monthly budget along with anticipated monthly expenses to determine your
+                financial potential!
+            </p>
                                 <div className = 'row mt-3'>
                                 <div className = 'col-sm'>
                                     <Budget/>

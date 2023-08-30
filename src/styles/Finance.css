@@ -41,6 +41,9 @@
     padding: 5%;
     background-color: rgba(35, 156, 157, 0.75);
   }
+  .dream p{
+    font-weight: 600;
+  }
 
   article{
     text-align: center;
@@ -57,4 +60,9 @@
   .fin{
     background-color: rgba(35, 156, 157, 0.75);
     border-radius: 5%;
+  }
+
+  .del{
+    display: flex;
+    flex-direction: row;
   }
