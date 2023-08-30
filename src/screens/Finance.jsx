@@ -28,42 +28,50 @@ const Finance = () =>{
             <section>
                 
                     <article>
-                    <h2>Earning</h2>
-                        <p>
-                        Earning is the foundation of financial well-being. It involves generating income through employment, 
-                        business ventures, investments, or other sources. Understanding how to enhance your earning potential 
-                        and diversify income streams can significantly impact your financial freedom. By increasing your income, 
-                        you'll have more resources to allocate toward savings, investments, debt repayment, and achieving your 
-                        financial goals.
-                        </p>
-                        <h6>Importance in Achieving Financial Freedom:</h6>
-                        <ol>
-                            <li>-Higher income allows you to save and invest more effectively.</li>
-                            <li>-Increased earnings provide a cushion during emergencies and unexpected expenses.</li>
-                            <li>-A higher income enables you to pay off debts more quickly.</li>
-                            <li>-More income can accelerate the achievement of your financial goals and dreams.</li>
-                        </ol>
+                        <div className = 'fin'>
+                            <h2>Earning</h2>
+                                <p>
+                                Earning is the foundation of financial well-being. It involves generating income through employment, 
+                                business ventures, investments, or other sources. Understanding how to enhance your earning potential 
+                                and diversify income streams can significantly impact your financial freedom. By increasing your income, 
+                                you'll have more resources to allocate toward savings, investments, debt repayment, and achieving your 
+                                financial goals.
+                                </p>
+                                <h6>Importance in Achieving Financial Freedom:</h6>
+                                <ol>
+                                    <li>-Higher income allows you to save and invest more effectively.</li>
+                                    <li>-Increased earnings provide a cushion during emergencies and unexpected expenses.</li>
+                                    <li>-A higher income enables you to pay off debts more quickly.</li>
+                                    <li>-More income can accelerate the achievement of your financial goals and dreams.</li>
+                                </ol>
+                        </div>
+                    
                     </article>
 
-                <h2>Saving & Investing</h2>
+                
                     <article>
-                        <p>
-                        Saving involves setting aside a portion of your income for future needs, while investing involves putting 
-                        your money to work to generate returns over time. Both saving and investing are crucial for building wealth 
-                        and achieving financial freedom. Savings act as a safety net for emergencies, while investments can grow your 
-                        wealth significantly over the long term.
-                        </p>
-                        <h6>Importance in Achieving Financial Freedom:</h6>
-                        <ol>
-                            <li>-Savings provide financial security during unexpected situations.</li>
-                            <li>-Investments have the potential to generate passive income and capital appreciation.</li>
-                            <li>-Compound interest can multiply your wealth over time, leading to financial independence.</li>
-                            <li>-Diversified investments can hedge against inflation and economic uncertainties.</li>
-                        </ol>
+                        <div className='fin'>
+                            <h2>Saving & Investing</h2>
+                            <p>
+                            Saving involves setting aside a portion of your income for future needs, while investing involves putting 
+                            your money to work to generate returns over time. Both saving and investing are crucial for building wealth 
+                            and achieving financial freedom. Savings act as a safety net for emergencies, while investments can grow your 
+                            wealth significantly over the long term.
+                            </p>
+                            <h6>Importance in Achieving Financial Freedom:</h6>
+                            <ol>
+                                <li>-Savings provide financial security during unexpected situations.</li>
+                                <li>-Investments have the potential to generate passive income and capital appreciation.</li>
+                                <li>-Compound interest can multiply your wealth over time, leading to financial independence.</li>
+                                <li>-Diversified investments can hedge against inflation and economic uncertainties.</li>
+                            </ol>
+                        </div>
                     </article>
 
-                <h2>Debt Management</h2>
+                
                     <article>
+                        <div className='fin'>
+                        <h2>Debt Management</h2>
                         <p>
                         Debt management involves understanding, managing, and reducing your debts. Being in control of your debt ensures 
                         that you're not burdened by high-interest payments and can allocate more resources toward savings and investments.
@@ -75,10 +83,14 @@ const Finance = () =>{
                             <li>-A good debt management strategy improves your credit score and financial stability.</li>
                             <li>-Being debt-free increases your financial flexibility and reduces stress.</li>
                         </ol>
+                        </div>
+                    
                     </article>
 
-                <h2>Budgeting</h2>
+                
                     <article>
+                        <div className='fin'>
+                        <h2>Budgeting</h2>
                         <p>
                         Budgeting is the process of creating a financial plan that outlines your income, expenses, and savings goals. 
                         It helps you track your spending, prioritize your financial goals, and ensure that you're living within your means.
@@ -90,10 +102,14 @@ const Finance = () =>{
                             <li>-Budgeting helps you identify areas where you can cut costs and increase your savings rate.</li>
                             <li>-A well-structured budget supports your long-term financial goals.</li>
                         </ol>
+                        </div>
+                    
                     </article>
 
-                <h2>Protecting Your Assets</h2>
+                
                     <article>
+                        <div className='fin'>
+                        <h2>Protecting Your Assets</h2>
                         <p>
                         Protecting your assets involves having the right insurance coverage and legal safeguards in place to mitigate risks. 
                         This includes health insurance, life insurance, disability insurance, and legal documents like wills and trusts.
@@ -105,6 +121,8 @@ const Finance = () =>{
                             <li>-Protecting assets prevents financial setbacks that could otherwise hinder your progress toward financial freedom.</li>
                             <li>-It provides peace of mind and reduces potential financial burdens on you and your loved ones.</li>
                         </ol>
+                        </div>
+                    
                     </article>
             </section>
             

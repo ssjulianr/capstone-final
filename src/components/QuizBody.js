@@ -43,7 +43,7 @@ const QuizBody = () => {
                         </div>
                         <button
                             id="next-btn"
-                            className="btn"
+                            className="btttn"
                             onClick={handleNextButtonClick}
                         >
                             Next
@@ -54,7 +54,7 @@ const QuizBody = () => {
                         <h2>Your Score: {score} out of {questions.length}</h2>
                         <button
                             id="next-btn"
-                            className="btn"
+                            className="btttn"
                             onClick={() => {
                                 setCurrentQuestionIndex(0);
                                 setScore(0);
