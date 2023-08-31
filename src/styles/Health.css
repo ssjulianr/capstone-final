@@ -430,3 +430,12 @@ select {
 .visually-hidden {
   display: none;
 }
+
+.red {
+  color: #ff0202;
+  font-size: 3rem;
+  text-shadow: 1px 0px 3px rgba(0, 0, 0, 0.55),
+    -3px 0px 7px rgba(55, 53, 46, 0.273), 0px 4px 7px rgba(5, 4, 1, 0.8);
+  font-weight: bold;
+  font-family: "Paytone One", sans-serif;
+}

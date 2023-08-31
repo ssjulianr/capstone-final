@@ -42,7 +42,7 @@ function HealthCare() {
       <div section className="healthpage">
       <div className="headerr">
         <div className="overlay"></div>
-        <div className="text"> Increasing access to healthcare </div>
+        <div className="text"> Increasing Access to Healthcare </div>
       </div>
       {/* 
       <section class="facts-section">
@@ -81,7 +81,7 @@ function HealthCare() {
 
       <div class="health-about-section">
         <div class="health-about-content">
-          <h2 className="health-heading"> Mobile health clinics</h2>
+          <h2 className="health-heading"> Mobile Health Clinics</h2>
           <h5 className="health-secondary-heading">
             {" "}
             Bringing healthcare to you{" "}
@@ -135,7 +135,7 @@ function HealthCare() {
         </div>
       </section> */}
 
-      <Filters setSelectedFilters={setSelectedFilters} />
+      {/* <Filters setSelectedFilters={setSelectedFilters} /> */}
       <ProviderList providers={filteredProviders} />
     </div>
     <Footer/>

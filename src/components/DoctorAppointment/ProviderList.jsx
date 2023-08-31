@@ -44,6 +44,7 @@ function ProviderList({ providers }) {
 
   return (
     <div className="providerlist-ctnr">
+      <h1 className="red"> Find Your Doctor </h1>
       <div className="provider-list">
         {providers.slice(startIndex, endIndex).map((provider) => (
           <ProviderCard

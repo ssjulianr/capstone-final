@@ -56,6 +56,9 @@
   article li{
     text-align: left;
   }
+  article p{
+    font-weight: 400;
+  }
 
   .fin{
     background-color: rgba(35, 156, 157, 0.75);
@@ -65,4 +68,10 @@
   .del{
     display: flex;
     flex-direction: row;
+  }
+
+  .pants{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
   }

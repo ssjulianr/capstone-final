@@ -27,7 +27,8 @@ const Finance = () =>{
             </section>
             <section>
                 
-                    <article>
+                <div className='pants'>
+                     <article>
                         <div className = 'fin'>
                             <h2>Earning</h2>
                                 <p>
@@ -124,6 +125,8 @@ const Finance = () =>{
                         </div>
                     
                     </article>
+                </div>
+                   
             </section>
             
             <BudgetTracker/>
