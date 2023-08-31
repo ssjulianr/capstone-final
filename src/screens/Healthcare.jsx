@@ -68,7 +68,7 @@ function HealthCare() {
         />
         <div class="health-about-content">
           <h5 className="health-secondary-heading"> Our Solution </h5>
-          <h2 className="health-heading"> Primary care in minutes</h2>
+          <h2 className="health-heading"> Primary Care in Minutes</h2>
           <p class="paragraph">
             Talk to a board-certified doctor of your choice, by phone or
             video.Affordable, hassle-free,telehealth appointments from quality
@@ -84,7 +84,7 @@ function HealthCare() {
           <h2 className="health-heading"> Mobile Health Clinics</h2>
           <h5 className="health-secondary-heading">
             {" "}
-            Bringing healthcare to you{" "}
+            Bringing Healthcare to You{" "}
           </h5>
           <p class="paragraph">
             There are an estimated 3,000 mobile clinics in the U.S. with 10
@@ -95,7 +95,7 @@ function HealthCare() {
             clinics reach marginalized communities and advance health equity.
           </p>
           <Link to="/mobile">
-            <button className="doctor-btn">Find a mobile clinic </button>
+            <button className="doctor-btn">Find A Mobile Clinic </button>
           </Link>
         </div>
         <img

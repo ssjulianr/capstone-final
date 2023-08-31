@@ -64,10 +64,14 @@
     background-color: rgba(35, 156, 157, 0.75);
     border-radius: 5%;
   }
-
+.fin p{
+  color: whitesmoke;
+  font-weight: 400;
+}
   .del{
     display: flex;
     flex-direction: row;
+    padding: 5%;
   }
 
   .pants{
